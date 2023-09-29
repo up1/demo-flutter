@@ -37,6 +37,7 @@ class _LoginScreenState extends State<LoginScreen> {
               children: [
                 const Text(
                   'Log In',
+                  key: Key('login_text'),
                   style: TextStyle(
                     color: Color(0xFF755DC1),
                     fontSize: 27,
